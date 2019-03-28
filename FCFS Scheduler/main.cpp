@@ -14,7 +14,7 @@ int main()
   int waitime[10];
 
   double FCFS(int at[],int bt[], int pro, int thru);
-  double Priority2(int at[],int bt[],int pri[],int pro,int thru);
+ 
 
   //number of processes to be considered                                                                                                                                                                    
   cout << "Number of processes to be considered" << endl;
@@ -27,7 +27,7 @@ int main()
   //ask for arrival, burst and priority                                                                                                                                                                     
   for (int i=0; i<numprocesses; i++)
     {
-      cout << "Arrival time:" << endl;
+      cout << "Arrival time:" << endl;double
       cin >> arrive[i];
       cout << "Burst time:" << endl;
       cin >> burst[i];
